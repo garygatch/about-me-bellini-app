@@ -1,0 +1,1439 @@
+{
+  "name": "contact",
+  "type": "page",
+  "url": "/contact",
+  "params": {},
+  "variables": [
+    {
+      "name": "form",
+      "description": "Visual-only inquiry form state for the contact page; no backend submission is connected.",
+      "type": "object",
+      "properties": [
+        {
+          "name": "name",
+          "description": "",
+          "type": "property",
+          "value": "''"
+        },
+        {
+          "name": "email",
+          "description": "",
+          "type": "property",
+          "value": "''"
+        },
+        {
+          "name": "company",
+          "description": "",
+          "type": "property",
+          "value": "''"
+        },
+        {
+          "name": "projectType",
+          "description": "",
+          "type": "property",
+          "value": "''"
+        },
+        {
+          "name": "message",
+          "description": "",
+          "type": "property",
+          "value": "''"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [
+        {
+          "property": "display",
+          "value": "flex"
+        },
+        {
+          "property": "flex-direction",
+          "value": "column"
+        },
+        {
+          "property": "min-height",
+          "value": "100%"
+        }
+      ],
+      "children": [
+        {
+          "name": "site-navigation",
+          "nodeName": "site-navigation",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [],
+          "comments": "",
+          "type": "custom-component",
+          "ownerId": "6abb15a10c6fee37005d8d39",
+          "ownerType": "app",
+          "expressions": [
+            {
+              "expression": "'contact'",
+              "to": "activePage"
+            }
+          ]
+        },
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [],
+          "classList": [
+            "min-h-screen",
+            "bg-[#11110f]",
+            "text-[#f5f0e6]"
+          ],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "flex",
+              "value": "1"
+            },
+            {
+              "property": "min-width",
+              "value": "0"
+            },
+            {
+              "property": "overflow",
+              "value": "auto"
+            }
+          ],
+          "children": [
+            {
+              "name": "main",
+              "nodeName": "main",
+              "elementId": "",
+              "attributes": [],
+              "classList": [
+                "mx-auto",
+                "max-w-7xl",
+                "px-6",
+                "sm:px-10",
+                "lg:px-16"
+              ],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "border-b",
+                    "border-white/10",
+                    "py-24",
+                    "sm:py-32"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "uppercase",
+                        "tracking-[0.2em]",
+                        "text-lime-300"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "04 / Contact",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h1",
+                      "nodeName": "h1",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "max-w-5xl",
+                        "text-6xl",
+                        "font-medium",
+                        "leading-[0.9]",
+                        "tracking-[-0.06em]",
+                        "sm:text-8xl"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Let’s make something with a point of view.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "max-w-2xl",
+                        "text-lg",
+                        "leading-relaxed",
+                        "text-zinc-400"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Tell me what you’re building, where you want to take it, and what would make the work matter. I’ll get back to you with a thoughtful next step.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": "Editorial contact introduction with the page's section marker and primary invitation."
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "grid",
+                    "gap-10",
+                    "border-b",
+                    "border-white/10",
+                    "py-20",
+                    "lg:grid-cols-[1.25fr_0.75fr]",
+                    "lg:gap-20"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "rounded-[2rem]",
+                        "border",
+                        "border-white/10",
+                        "bg-[#191a16]",
+                        "p-6",
+                        "sm:p-10"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "mb-8"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "Start with the essentials.",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "layout": {
+                            "container": {
+                              "type": "grid",
+                              "columns": [
+                                {
+                                  "type": "span",
+                                  "value": 1
+                                },
+                                {
+                                  "type": "span",
+                                  "value": 1
+                                }
+                              ],
+                              "rows": [
+                                {
+                                  "type": "other",
+                                  "value": "auto"
+                                },
+                                {
+                                  "type": "other",
+                                  "value": "auto"
+                                },
+                                {
+                                  "type": "other",
+                                  "value": "auto"
+                                }
+                              ],
+                              "columnGap": "16px",
+                              "rowGap": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "name": "Text Input",
+                              "nodeName": "bln-text-input",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "layout": {
+                                "cell": {
+                                  "type": "grid-item",
+                                  "columnStart": 1,
+                                  "rowStart": 1
+                                }
+                              },
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Name'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "$ctrl.form.name",
+                                  "to": "value"
+                                },
+                                {
+                                  "expression": "'Your name'",
+                                  "to": "placeholder"
+                                },
+                                {
+                                  "expression": "true",
+                                  "to": "isRequired"
+                                }
+                              ],
+                              "formControl": {
+                                "modelName": "value"
+                              }
+                            },
+                            {
+                              "name": "Text Input",
+                              "nodeName": "bln-text-input",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "layout": {
+                                "cell": {
+                                  "type": "grid-item",
+                                  "columnStart": 2,
+                                  "rowStart": 1
+                                }
+                              },
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Email'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "$ctrl.form.email",
+                                  "to": "value"
+                                },
+                                {
+                                  "expression": "'you@company.com'",
+                                  "to": "placeholder"
+                                },
+                                {
+                                  "expression": "'email'",
+                                  "to": "type"
+                                },
+                                {
+                                  "expression": "true",
+                                  "to": "isRequired"
+                                }
+                              ],
+                              "formControl": {
+                                "modelName": "value"
+                              }
+                            },
+                            {
+                              "name": "Text Input",
+                              "nodeName": "bln-text-input",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "layout": {
+                                "cell": {
+                                  "type": "grid-item",
+                                  "columnStart": 1,
+                                  "rowStart": 2
+                                }
+                              },
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Company'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "$ctrl.form.company",
+                                  "to": "value"
+                                },
+                                {
+                                  "expression": "'Studio or organization'",
+                                  "to": "placeholder"
+                                }
+                              ],
+                              "formControl": {
+                                "modelName": "value"
+                              }
+                            },
+                            {
+                              "name": "Dropdown",
+                              "nodeName": "bln-dropdown",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "layout": {
+                                "cell": {
+                                  "type": "grid-item",
+                                  "columnStart": 2,
+                                  "rowStart": 2
+                                }
+                              },
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Project type'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "$ctrl.form.projectType",
+                                  "to": "value"
+                                },
+                                {
+                                  "expression": "[{label: 'Brand identity', value: 'brand'}, {label: 'Digital product', value: 'digital'}, {label: 'Creative direction', value: 'direction'}, {label: 'Something else', value: 'other'}]",
+                                  "to": "values"
+                                },
+                                {
+                                  "expression": "'Choose a direction'",
+                                  "to": "placeholder"
+                                },
+                                {
+                                  "expression": "true",
+                                  "to": "isRequired"
+                                }
+                              ],
+                              "formControl": {
+                                "modelName": "value"
+                              }
+                            },
+                            {
+                              "name": "Text Input",
+                              "nodeName": "bln-text-input",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "layout": {
+                                "cell": {
+                                  "type": "grid-item",
+                                  "columnStart": 1,
+                                  "rowStart": 3,
+                                  "columnSize": 2
+                                }
+                              },
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Message'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "$ctrl.form.message",
+                                  "to": "value"
+                                },
+                                {
+                                  "expression": "'A few words about the opportunity, timeline, and ambition.'",
+                                  "to": "placeholder"
+                                },
+                                {
+                                  "expression": "'text-area'",
+                                  "to": "type"
+                                },
+                                {
+                                  "expression": "6",
+                                  "to": "rows"
+                                },
+                                {
+                                  "expression": "true",
+                                  "to": "isRequired"
+                                }
+                              ],
+                              "formControl": {
+                                "modelName": "value"
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "mt-8",
+                            "flex",
+                            "justify-end"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "Button",
+                              "nodeName": "bln-button",
+                              "elementId": "",
+                              "attributes": [
+                                {
+                                  "property": "core",
+                                  "value": ""
+                                }
+                              ],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": "",
+                              "type": "core-component",
+                              "expressions": [
+                                {
+                                  "expression": "'Send inquiry ↗'",
+                                  "to": "label"
+                                },
+                                {
+                                  "expression": "'primary'",
+                                  "to": "type"
+                                }
+                              ]
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "aside",
+                      "nodeName": "aside",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "flex",
+                        "flex-col",
+                        "justify-between",
+                        "gap-12"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Direct line",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-4",
+                                "block",
+                                "text-2xl",
+                                "underline",
+                                "underline-offset-8",
+                                "decoration-zinc-700",
+                                "hover:text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "hello@alexmorgan.design",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "mailto:hello@alexmorgan.design",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "grid",
+                            "gap-6",
+                            "border-y",
+                            "border-white/10",
+                            "py-6",
+                            "sm:grid-cols-2"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "p",
+                                  "nodeName": "p",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [
+                                    "text-xs",
+                                    "uppercase",
+                                    "tracking-[0.18em]",
+                                    "text-zinc-500"
+                                  ],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "Location",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": ""
+                                },
+                                {
+                                  "name": "p",
+                                  "nodeName": "p",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [
+                                    "mt-2",
+                                    "text-lg"
+                                  ],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "New York / Remote",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": ""
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "p",
+                                  "nodeName": "p",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [
+                                    "text-xs",
+                                    "uppercase",
+                                    "tracking-[0.18em]",
+                                    "text-zinc-500"
+                                  ],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "Availability",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": ""
+                                },
+                                {
+                                  "name": "p",
+                                  "nodeName": "p",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [
+                                    "mt-2",
+                                    "text-lg",
+                                    "text-lime-300"
+                                  ],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "Taking on select projects",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": ""
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Elsewhere",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-4",
+                                "flex",
+                                "flex-wrap",
+                                "gap-x-6",
+                                "gap-y-3",
+                                "text-lg"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "a",
+                                  "nodeName": "a",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "LinkedIn ↗",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": "",
+                                  "link": {
+                                    "type": "url",
+                                    "path": "https://www.linkedin.com",
+                                    "evaluate": false
+                                  }
+                                },
+                                {
+                                  "name": "a",
+                                  "nodeName": "a",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "Instagram ↗",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": "",
+                                  "link": {
+                                    "type": "url",
+                                    "path": "https://www.instagram.com",
+                                    "evaluate": false
+                                  }
+                                },
+                                {
+                                  "name": "a",
+                                  "nodeName": "a",
+                                  "elementId": "",
+                                  "attributes": [],
+                                  "classList": [],
+                                  "conditionalClasses": [],
+                                  "conditionalStyles": [],
+                                  "contentType": "text",
+                                  "displayExpression": "",
+                                  "events": {},
+                                  "iterate": {
+                                    "array": "",
+                                    "variable": "",
+                                    "trackByIndex": false
+                                  },
+                                  "styles": [],
+                                  "children": [
+                                    {
+                                      "name": "text",
+                                      "nodeName": "text",
+                                      "textContent": "Are.na ↗",
+                                      "evaluate": false
+                                    }
+                                  ],
+                                  "comments": "",
+                                  "link": {
+                                    "type": "url",
+                                    "path": "https://www.are.na",
+                                    "evaluate": false
+                                  }
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": "Responsive inquiry form paired with direct contact details and availability."
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "my-20",
+                    "rounded-[2rem]",
+                    "bg-lime-300",
+                    "px-8",
+                    "py-14",
+                    "text-[#11110f]",
+                    "sm:px-14",
+                    "sm:py-20"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "uppercase",
+                        "tracking-[0.2em]",
+                        "opacity-60"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Good work starts with a good question.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h2",
+                      "nodeName": "h2",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "max-w-4xl",
+                        "text-4xl",
+                        "font-medium",
+                        "leading-[0.95]",
+                        "tracking-[-0.05em]",
+                        "sm:text-6xl"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Bring the sharp idea. We’ll find the form.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "a",
+                      "nodeName": "a",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-10",
+                        "inline-block",
+                        "rounded-full",
+                        "bg-[#11110f]",
+                        "px-6",
+                        "py-3",
+                        "text-sm",
+                        "font-semibold",
+                        "text-lime-300",
+                        "hover:bg-zinc-800"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "hello@alexmorgan.design ↗",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": "",
+                      "link": {
+                        "type": "url",
+                        "path": "mailto:hello@alexmorgan.design",
+                        "evaluate": false
+                      }
+                    }
+                  ],
+                  "comments": "Final lime-accented invitation panel reinforces the direct email CTA."
+                }
+              ],
+              "comments": ""
+            },
+            {
+              "name": "site-footer",
+              "nodeName": "site-footer",
+              "elementId": "",
+              "attributes": [],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [],
+              "comments": "",
+              "type": "custom-component",
+              "ownerId": "6abb15a10c6fee37005d8d39",
+              "ownerType": "app",
+              "expressions": []
+            }
+          ],
+          "comments": ""
+        }
+      ],
+      "comments": "Page shell keeps the shared navigation at the top and the shared footer at the bottom while preserving the existing scrolling content area."
+    }
+  ],
+  "description": "Contact page for the About Me portfolio. Uses the reusable site navigation and site footer while preserving the existing inquiry form, contact details, invitation panel, styling, and visual-only form behavior."
+}

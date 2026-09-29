@@ -1,0 +1,368 @@
+{
+  "type": "custom-component",
+  "name": "site-footer",
+  "description": "## Site Footer\nReusable app-owned footer for the about-me portfolio. Preserves the editorial visual system with a near-black surface, ivory AM mark, muted zinc metadata, responsive layout, electric-lime interaction states, social links, and a Contact destination.\n\nSocial destinations open in a new tab. Each social link uses the Bellini Link icon API with Font Awesome brand icon names and an accessible aria label.",
+  "children": [
+    {
+      "name": "footer",
+      "classList": [
+        "border-t",
+        "border-white/10",
+        "bg-[#11110f]",
+        "px-6",
+        "py-8",
+        "text-sm",
+        "text-zinc-500",
+        "sm:px-10",
+        "lg:px-16"
+      ],
+      "children": [
+        {
+          "name": "div",
+          "classList": [
+            "mx-auto",
+            "flex",
+            "max-w-7xl",
+            "flex-col",
+            "gap-6",
+            "sm:flex-row",
+            "sm:items-center",
+            "sm:justify-between"
+          ],
+          "layout": {
+            "container": {
+              "type": "box",
+              "orientation": "row",
+              "crossAxisAlignment": "center",
+              "gap": "1.5rem"
+            }
+          },
+          "children": [
+            {
+              "name": "div",
+              "classList": [
+                "flex",
+                "items-center",
+                "gap-4"
+              ],
+              "layout": {
+                "cell": {
+                  "type": "box-item",
+                  "growFactor": 0,
+                  "shrinkFactor": 1,
+                  "mainSize": "auto"
+                }
+              },
+              "children": [
+                {
+                  "name": "span",
+                  "classList": [
+                    "text-lg",
+                    "font-semibold",
+                    "text-[#f5f0e6]"
+                  ],
+                  "children": [
+                    {
+                      "name": "text",
+                      "textContent": "AM",
+                      "evaluate": false
+                    }
+                  ]
+                },
+                {
+                  "name": "span",
+                  "classList": [],
+                  "children": [
+                    {
+                      "name": "text",
+                      "textContent": "© 2025 Alex Morgan.",
+                      "evaluate": false
+                    }
+                  ]
+                },
+                {
+                  "name": "span",
+                  "classList": [],
+                  "children": [
+                    {
+                      "name": "text",
+                      "textContent": "New York / Remote",
+                      "evaluate": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "div",
+              "classList": [
+                "flex",
+                "flex-wrap",
+                "items-center",
+                "gap-x-5",
+                "gap-y-3"
+              ],
+              "layout": {
+                "cell": {
+                  "type": "box-item",
+                  "growFactor": 1,
+                  "shrinkFactor": 1,
+                  "mainSize": "auto",
+                  "crossAxisAlignment": "center"
+                }
+              },
+              "children": [
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Alex Morgan on LinkedIn"
+                    }
+                  ],
+                  "classList": [
+                    "text-zinc-500",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': 'https://www.linkedin.com', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'new_window'",
+                      "to": "openIn"
+                    },
+                    {
+                      "expression": "({'type': 'font-icon', 'style': 'brands', 'name': 'linkedin', 'position': 'icon-only'})",
+                      "to": "icon"
+                    },
+                    {
+                      "expression": "'LinkedIn'",
+                      "to": "tooltip"
+                    }
+                  ]
+                },
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Alex Morgan on Instagram"
+                    }
+                  ],
+                  "classList": [
+                    "text-zinc-500",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': 'https://www.instagram.com', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'new_window'",
+                      "to": "openIn"
+                    },
+                    {
+                      "expression": "({'type': 'font-icon', 'style': 'brands', 'name': 'instagram', 'position': 'icon-only'})",
+                      "to": "icon"
+                    },
+                    {
+                      "expression": "'Instagram'",
+                      "to": "tooltip"
+                    }
+                  ]
+                },
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Alex Morgan on GitHub"
+                    }
+                  ],
+                  "classList": [
+                    "text-zinc-500",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': 'https://github.com', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'new_window'",
+                      "to": "openIn"
+                    },
+                    {
+                      "expression": "({'type': 'font-icon', 'style': 'brands', 'name': 'github', 'position': 'icon-only'})",
+                      "to": "icon"
+                    },
+                    {
+                      "expression": "'GitHub'",
+                      "to": "tooltip"
+                    }
+                  ]
+                },
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Alex Morgan on Facebook"
+                    }
+                  ],
+                  "classList": [
+                    "text-zinc-500",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': 'https://www.facebook.com', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'new_window'",
+                      "to": "openIn"
+                    },
+                    {
+                      "expression": "({'type': 'font-icon', 'style': 'brands', 'name': 'facebook', 'position': 'icon-only'})",
+                      "to": "icon"
+                    },
+                    {
+                      "expression": "'Facebook'",
+                      "to": "tooltip"
+                    }
+                  ]
+                },
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Alex Morgan on Are.na"
+                    }
+                  ],
+                  "classList": [
+                    "text-zinc-500",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': 'https://www.are.na', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'new_window'",
+                      "to": "openIn"
+                    },
+                    {
+                      "expression": "({'type': 'font-icon', 'style': 'brands', 'name': 'are-na', 'position': 'icon-only'})",
+                      "to": "icon"
+                    },
+                    {
+                      "expression": "'Are.na'",
+                      "to": "tooltip"
+                    }
+                  ]
+                },
+                {
+                  "name": "Link",
+                  "nodeName": "bln-link",
+                  "attributes": [
+                    {
+                      "property": "core",
+                      "value": ""
+                    },
+                    {
+                      "property": "aria-label",
+                      "value": "Contact Alex Morgan"
+                    }
+                  ],
+                  "classList": [
+                    "text-[#f5f0e6]",
+                    "underline",
+                    "underline-offset-4",
+                    "hover:text-lime-300",
+                    "focus:outline-none",
+                    "focus:ring-2",
+                    "focus:ring-lime-300"
+                  ],
+                  "children": [],
+                  "type": "core-component",
+                  "expressions": [
+                    {
+                      "expression": "({'type': 'url', 'path': '/contact', 'evaluate': false})",
+                      "to": "link"
+                    },
+                    {
+                      "expression": "'Contact'",
+                      "to": "text"
+                    }
+                  ]
+                }
+              ],
+              "comments": "Social links use the built-in Link component so Font Awesome brand icons remain native to Bellini. Each link includes an aria label and a visually hidden text label for accessible icon-only presentation."
+            }
+          ]
+        }
+      ],
+      "comments": "Shared portfolio footer surface: thin divider, near-black background, and responsive horizontal alignment on larger screens."
+    }
+  ],
+  "variables": [],
+  "bindings": [],
+  "modules": [],
+  "styles": []
+}

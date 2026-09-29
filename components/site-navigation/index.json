@@ -1,0 +1,83 @@
+{
+  "type": "custom-component",
+  "name": "site-navigation",
+  "description": "## About Me Site Navigation\nReusable app-owned horizontal navigation for the About Me portfolio. Uses the shared near-black, warm ivory, muted zinc, and electric-lime editorial language through the core responsive navigation primitive.\n\n### Inputs\n- `activePage`: one of `home`, `about`, `work`, or `contact`; the matching destination receives the active check treatment.\n\nThe AM brand links to `/home`, and all destinations open in the current window.",
+  "children": [
+    {
+      "name": "Navigation",
+      "nodeName": "bln-navigation",
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        },
+        {
+          "property": "aria-label",
+          "value": "Primary portfolio navigation"
+        }
+      ],
+      "classList": [],
+      "children": [],
+      "comments": "Core navigation owns the responsive horizontal behavior and visual treatment. Active destinations use checkedWhen so the component remains reusable across all portfolio pages without duplicating route-specific markup. The Contact item remains a clear final CTA; the navigation primitive supplies its compact treatment consistently with the existing site language.",
+      "type": "core-component",
+      "expressions": [
+        {
+          "expression": "'horizontal'",
+          "to": "orientation"
+        },
+        {
+          "expression": "'left'",
+          "to": "alignment"
+        },
+        {
+          "expression": "'AM'",
+          "to": "label"
+        },
+        {
+          "expression": "({type: 'url', path: '/home', evaluate: false})",
+          "to": "link"
+        },
+        {
+          "expression": "[{label: 'Home', evaluateLabel: false, onClick: 'link', openIn: 'current-window', checkedWhen: \"$ctrl.activePage === 'home'\", link: {type: 'url', path: '/home', evaluate: false}}, {label: 'About', evaluateLabel: false, onClick: 'link', openIn: 'current-window', checkedWhen: \"$ctrl.activePage === 'about'\", link: {type: 'url', path: '/about', evaluate: false}}, {label: 'Work', evaluateLabel: false, onClick: 'link', openIn: 'current-window', checkedWhen: \"$ctrl.activePage === 'work'\", link: {type: 'url', path: '/work', evaluate: false}}, {label: 'Contact', evaluateLabel: false, onClick: 'link', openIn: 'current-window', checkedWhen: \"$ctrl.activePage === 'contact'\", link: {type: 'url', path: '/contact', evaluate: false}}]",
+          "to": "menuItems"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "bindings": [
+    {
+      "name": "activePage",
+      "type": "<",
+      "default": "'home'",
+      "description": "Current portfolio page. The matching navigation item is visually marked as active. Accepted values: home, about, work, contact.",
+      "visibleWhen": "",
+      "label": "",
+      "group": "",
+      "example": "",
+      "actions": [],
+      "propertyType": "enum",
+      "multi": false,
+      "enumOptions": [
+        {
+          "value": "home",
+          "label": "Home"
+        },
+        {
+          "value": "about",
+          "label": "About"
+        },
+        {
+          "value": "work",
+          "label": "Work"
+        },
+        {
+          "value": "contact",
+          "label": "Contact"
+        }
+      ]
+    }
+  ],
+  "modules": [],
+  "styles": []
+}

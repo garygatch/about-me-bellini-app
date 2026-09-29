@@ -1,0 +1,2361 @@
+{
+  "name": "work",
+  "type": "page",
+  "url": "/work",
+  "params": {},
+  "variables": [],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "min-h-screen",
+        "bg-[#11110f]",
+        "text-[#f5f0e6]"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "layout": {
+        "container": {
+          "type": "box",
+          "orientation": "column",
+          "crossAxisAlignment": "stretch"
+        }
+      },
+      "children": [
+        {
+          "name": "site-navigation",
+          "nodeName": "site-navigation",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item",
+              "growFactor": 0,
+              "shrinkFactor": 0,
+              "mainSize": "auto"
+            }
+          },
+          "children": [],
+          "comments": "",
+          "type": "custom-component",
+          "ownerId": "6abb15a10c6fee37005d8d39",
+          "ownerType": "app",
+          "expressions": [
+            {
+              "expression": "'work'",
+              "to": "activePage"
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "nodeName": "main",
+          "elementId": "",
+          "attributes": [],
+          "classList": [
+            "mx-auto",
+            "w-full",
+            "max-w-7xl",
+            "px-6",
+            "sm:px-10",
+            "lg:px-16"
+          ],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item",
+              "growFactor": 1,
+              "shrinkFactor": 1,
+              "mainSize": "100%"
+            }
+          },
+          "children": [
+            {
+              "name": "section",
+              "nodeName": "section",
+              "elementId": "work",
+              "attributes": [],
+              "classList": [
+                "border-b",
+                "border-white/10",
+                "py-24",
+                "sm:py-32"
+              ],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [
+                {
+                  "name": "p",
+                  "nodeName": "p",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "text-xs",
+                    "uppercase",
+                    "tracking-[0.2em]",
+                    "text-lime-300"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "text",
+                      "nodeName": "text",
+                      "textContent": "03 / Selected work",
+                      "evaluate": false
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "h1",
+                  "nodeName": "h1",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "mt-8",
+                    "max-w-5xl",
+                    "text-6xl",
+                    "font-medium",
+                    "leading-[0.9]",
+                    "tracking-[-0.06em]",
+                    "sm:text-8xl"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "text",
+                      "nodeName": "text",
+                      "textContent": "A considered mix of identities, interfaces, and worlds.",
+                      "evaluate": false
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "p",
+                  "nodeName": "p",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "mt-8",
+                    "max-w-2xl",
+                    "text-lg",
+                    "leading-relaxed",
+                    "text-zinc-400"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "text",
+                      "nodeName": "text",
+                      "textContent": "Selected collaborations for people and teams building something with a point of view. Each project starts with a sharp question and ends with a system made to last.",
+                      "evaluate": false
+                    }
+                  ],
+                  "comments": ""
+                }
+              ],
+              "comments": "Selected work hero and project index introduction."
+            },
+            {
+              "name": "section",
+              "nodeName": "section",
+              "elementId": "",
+              "attributes": [],
+              "classList": [
+                "border-b",
+                "border-white/10",
+                "py-16",
+                "sm:py-24"
+              ],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [
+                {
+                  "name": "div",
+                  "nodeName": "div",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "grid",
+                    "grid-cols-1",
+                    "gap-6",
+                    "md:grid-cols-2"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "article",
+                      "nodeName": "article",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "overflow-hidden",
+                        "rounded-3xl",
+                        "border",
+                        "border-white/10",
+                        "bg-[#1b1b18]",
+                        "md:row-span-2"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "relative",
+                            "min-h-[360px]",
+                            "overflow-hidden",
+                            "bg-gradient-to-br",
+                            "from-orange-200",
+                            "via-rose-500",
+                            "to-violet-800"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "-right-16",
+                                "-top-16",
+                                "h-64",
+                                "w-64",
+                                "rounded-full",
+                                "border-[24px]",
+                                "border-white/30"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-8",
+                                "left-8",
+                                "text-6xl",
+                                "font-semibold",
+                                "tracking-[-0.06em]",
+                                "text-white"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "ASTER",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "p-8"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Brand identity · 2024",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-4",
+                                "text-3xl",
+                                "font-medium"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Aster House",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-3",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "A new hospitality language for spaces that feel collected, not decorated.",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-6",
+                                "inline-block",
+                                "text-sm",
+                                "underline",
+                                "underline-offset-4",
+                                "hover:text-lime-300",
+                                "focus:outline-none",
+                                "focus:ring-2",
+                                "focus:ring-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "View project ↗",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "#contact",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "article",
+                      "nodeName": "article",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "overflow-hidden",
+                        "rounded-3xl",
+                        "border",
+                        "border-white/10",
+                        "bg-[#1b1b18]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "relative",
+                            "h-56",
+                            "overflow-hidden",
+                            "bg-lime-300"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "inset-6",
+                                "border-2",
+                                "border-black/70"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-7",
+                                "left-7",
+                                "text-4xl",
+                                "font-medium",
+                                "tracking-[-0.06em]",
+                                "text-black",
+                                "sm:text-5xl"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "COMMON / GROUND",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "p-7"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Digital product · 2023",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-3",
+                                "text-2xl",
+                                "font-medium"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Common Ground",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "A calmer way for neighborhoods to share more of what matters.",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-5",
+                                "inline-block",
+                                "text-sm",
+                                "underline",
+                                "underline-offset-4",
+                                "hover:text-lime-300",
+                                "focus:outline-none",
+                                "focus:ring-2",
+                                "focus:ring-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "View project ↗",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "#contact",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "article",
+                      "nodeName": "article",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "overflow-hidden",
+                        "rounded-3xl",
+                        "border",
+                        "border-white/10",
+                        "bg-[#1b1b18]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "relative",
+                            "h-56",
+                            "overflow-hidden",
+                            "bg-gradient-to-br",
+                            "from-cyan-300",
+                            "to-blue-800"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "left-8",
+                                "top-8",
+                                "h-32",
+                                "w-32",
+                                "rounded-full",
+                                "border",
+                                "border-white/60"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-7",
+                                "left-7",
+                                "text-5xl",
+                                "font-medium",
+                                "text-white"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "MONO",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "p-7"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Art direction · 2023",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-3",
+                                "text-2xl",
+                                "font-medium"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Mono Editions",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "A visual study in restraint, rhythm, and the beauty of less.",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-5",
+                                "inline-block",
+                                "text-sm",
+                                "underline",
+                                "underline-offset-4",
+                                "hover:text-lime-300",
+                                "focus:outline-none",
+                                "focus:ring-2",
+                                "focus:ring-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "View project ↗",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "#contact",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "article",
+                      "nodeName": "article",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "overflow-hidden",
+                        "rounded-3xl",
+                        "border",
+                        "border-white/10",
+                        "bg-[#1b1b18]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "relative",
+                            "h-56",
+                            "overflow-hidden",
+                            "bg-gradient-to-br",
+                            "from-fuchsia-300",
+                            "via-purple-600",
+                            "to-[#11110f]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-[-4rem]",
+                                "right-[-2rem]",
+                                "h-48",
+                                "w-48",
+                                "rounded-full",
+                                "bg-orange-300/70",
+                                "mix-blend-screen"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-7",
+                                "left-7",
+                                "text-5xl",
+                                "font-medium",
+                                "text-white"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "PALOMA",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "p-7"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Campaign system · 2022",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-3",
+                                "text-2xl",
+                                "font-medium"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Paloma",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "A flexible campaign world with a bright pulse and a human voice.",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-5",
+                                "inline-block",
+                                "text-sm",
+                                "underline",
+                                "underline-offset-4",
+                                "hover:text-lime-300",
+                                "focus:outline-none",
+                                "focus:ring-2",
+                                "focus:ring-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "View project ↗",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "#contact",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "article",
+                      "nodeName": "article",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "overflow-hidden",
+                        "rounded-3xl",
+                        "border",
+                        "border-white/10",
+                        "bg-[#1b1b18]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "relative",
+                            "h-56",
+                            "overflow-hidden",
+                            "bg-[#e8e2d6]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "left-8",
+                                "top-8",
+                                "h-32",
+                                "w-2",
+                                "bg-[#11110f]"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "div",
+                              "nodeName": "div",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "left-16",
+                                "top-8",
+                                "h-32",
+                                "w-2",
+                                "bg-[#11110f]"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "absolute",
+                                "bottom-7",
+                                "left-7",
+                                "text-5xl",
+                                "font-medium",
+                                "tracking-[-0.06em]",
+                                "text-[#11110f]"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "FIELD NOTES",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "p-7"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-xs",
+                                "uppercase",
+                                "tracking-[0.18em]",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Editorial platform · 2021",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-3",
+                                "text-2xl",
+                                "font-medium"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Field Notes",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-zinc-500"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "An editorial platform for curious minds, useful detours, and slow thinking.",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "a",
+                              "nodeName": "a",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-5",
+                                "inline-block",
+                                "text-sm",
+                                "underline",
+                                "underline-offset-4",
+                                "hover:text-lime-300",
+                                "focus:outline-none",
+                                "focus:ring-2",
+                                "focus:ring-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "View project ↗",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": "",
+                              "link": {
+                                "type": "url",
+                                "path": "#contact",
+                                "evaluate": false
+                              }
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "process",
+                  "attributes": [],
+                  "classList": [
+                    "border-b",
+                    "border-white/10",
+                    "py-16",
+                    "sm:py-20"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "uppercase",
+                        "tracking-[0.2em]",
+                        "text-zinc-500"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "A clear process, start to finish",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "grid",
+                        "grid-cols-2",
+                        "gap-6",
+                        "sm:grid-cols-4"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "border-t",
+                            "border-white/15",
+                            "pt-4"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-2xl",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "01",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-lg"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Discover",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "border-t",
+                            "border-white/15",
+                            "pt-4"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-2xl",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "02",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-lg"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Define",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "border-t",
+                            "border-white/15",
+                            "pt-4"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-2xl",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "03",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-lg"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Design",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "border-t",
+                            "border-white/15",
+                            "pt-4"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "p",
+                              "nodeName": "p",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "text-2xl",
+                                "text-lime-300"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "04",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            },
+                            {
+                              "name": "h2",
+                              "nodeName": "h2",
+                              "elementId": "",
+                              "attributes": [],
+                              "classList": [
+                                "mt-2",
+                                "text-lg"
+                              ],
+                              "conditionalClasses": [],
+                              "conditionalStyles": [],
+                              "contentType": "text",
+                              "displayExpression": "",
+                              "events": {},
+                              "iterate": {
+                                "array": "",
+                                "variable": "",
+                                "trackByIndex": false
+                              },
+                              "styles": [],
+                              "children": [
+                                {
+                                  "name": "text",
+                                  "nodeName": "text",
+                                  "textContent": "Deliver",
+                                  "evaluate": false
+                                }
+                              ],
+                              "comments": ""
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": "A compact process strip closes the index before the contact invitation."
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "contact",
+                  "attributes": [],
+                  "classList": [
+                    "my-20",
+                    "rounded-[2rem]",
+                    "bg-lime-300",
+                    "px-8",
+                    "py-14",
+                    "text-[#11110f]",
+                    "sm:px-14",
+                    "sm:py-16"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "uppercase",
+                        "tracking-[0.2em]",
+                        "opacity-60"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "04 / Start something good",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h2",
+                      "nodeName": "h2",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "max-w-4xl",
+                        "text-5xl",
+                        "font-medium",
+                        "leading-[0.95]",
+                        "tracking-[-0.06em]",
+                        "sm:text-7xl"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Have a good idea? Let’s make it real.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-10",
+                        "flex",
+                        "flex-col",
+                        "gap-5",
+                        "sm:flex-row",
+                        "sm:items-center",
+                        "sm:justify-between"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "a",
+                          "nodeName": "a",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "text-xl",
+                            "underline",
+                            "underline-offset-8",
+                            "hover:opacity-60",
+                            "focus:outline-none",
+                            "focus:ring-2",
+                            "focus:ring-[#11110f]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "hello@alexmorgan.design",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": "",
+                          "link": {
+                            "type": "url",
+                            "path": "mailto:hello@alexmorgan.design",
+                            "evaluate": false
+                          }
+                        },
+                        {
+                          "name": "a",
+                          "nodeName": "a",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "rounded-full",
+                            "bg-[#11110f]",
+                            "px-6",
+                            "py-3",
+                            "text-sm",
+                            "font-semibold",
+                            "text-lime-300",
+                            "hover:bg-zinc-800",
+                            "focus:outline-none",
+                            "focus:ring-2",
+                            "focus:ring-[#11110f]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "Start a conversation ↗",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": "",
+                          "link": {
+                            "type": "url",
+                            "path": "mailto:hello@alexmorgan.design",
+                            "evaluate": false
+                          }
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": "Primary contact CTA for prospective collaborators."
+                }
+              ],
+              "comments": "Responsive project index with five distinct CSS-only abstract treatments."
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "site-footer",
+          "nodeName": "site-footer",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item"
+            }
+          },
+          "children": [],
+          "comments": "",
+          "type": "custom-component",
+          "ownerId": "6abb15a10c6fee37005d8d39",
+          "ownerType": "app",
+          "expressions": []
+        }
+      ],
+      "comments": "Portfolio page shell with the same dark editorial visual system as the home page."
+    }
+  ],
+  "description": "Portfolio work page with shared site navigation and footer, preserving the selected work index, process strip, and contact invitation."
+}

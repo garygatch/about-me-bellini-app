@@ -1,0 +1,23 @@
+{
+  "name": "about-me",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT",
+      "description": "A cohesive multi-page portfolio for Alex Morgan with a reusable shared UI architecture. All pages use the app-owned site-navigation sub-component for consistent route navigation and active-page highlighting, and the site-footer sub-component for the shared AM identity, contact link, copyright, location, and social links. The footer uses accessible Font Awesome brand icons for LinkedIn, Instagram, GitHub, Facebook, and Are.na, with external links opening in new tabs. Across every page, a shared near-black, ivory, zinc, and electric-lime visual system supports responsive editorial layouts."
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": false,
+      "mockedUserAccounts": []
+    }
+  },
+  "directories": null
+}

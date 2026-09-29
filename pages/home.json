@@ -1,0 +1,1200 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "min-h-screen",
+        "bg-[#11110f]",
+        "text-[#f5f0e6]"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "site-navigation",
+          "nodeName": "site-navigation",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [],
+          "comments": "",
+          "type": "custom-component",
+          "ownerId": "6abb15a10c6fee37005d8d39",
+          "ownerType": "app",
+          "expressions": [
+            {
+              "expression": "'home'",
+              "to": "activePage"
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "nodeName": "main",
+          "elementId": "",
+          "attributes": [],
+          "classList": [
+            "mx-auto",
+            "max-w-7xl",
+            "px-6",
+            "sm:px-10",
+            "lg:px-16"
+          ],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "section",
+              "nodeName": "section",
+              "elementId": "top",
+              "attributes": [],
+              "classList": [
+                "grid",
+                "min-h-[720px]",
+                "items-center",
+                "gap-12",
+                "py-24",
+                "lg:grid-cols-2"
+              ],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [
+                {
+                  "name": "div",
+                  "nodeName": "div",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "tracking-[0.2em]",
+                        "text-lime-300"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "AVAILABLE FOR SELECT PROJECTS · 2024—2025",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h1",
+                      "nodeName": "h1",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "text-6xl",
+                        "font-medium",
+                        "leading-[0.9]",
+                        "tracking-[-0.06em]",
+                        "sm:text-8xl"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "I make ideas impossible to ignore.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-8",
+                        "max-w-xl",
+                        "text-lg",
+                        "leading-relaxed",
+                        "text-zinc-400"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Alex Morgan is an independent designer and creative strategist helping ambitious people turn sharp ideas into identities, products, and experiences with staying power.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-10",
+                        "flex",
+                        "flex-wrap",
+                        "gap-4"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "a",
+                          "nodeName": "a",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "rounded-full",
+                            "bg-lime-300",
+                            "px-6",
+                            "py-3",
+                            "text-sm",
+                            "font-semibold",
+                            "text-black",
+                            "hover:bg-lime-200",
+                            "focus:outline-none",
+                            "focus:ring-2",
+                            "focus:ring-lime-300"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "Explore selected work ↗",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": "",
+                          "link": {
+                            "type": "url",
+                            "path": "/work",
+                            "evaluate": false
+                          }
+                        },
+                        {
+                          "name": "a",
+                          "nodeName": "a",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "rounded-full",
+                            "border",
+                            "border-zinc-700",
+                            "px-6",
+                            "py-3",
+                            "text-sm",
+                            "hover:border-lime-300",
+                            "hover:text-lime-300",
+                            "focus:outline-none",
+                            "focus:ring-2",
+                            "focus:ring-lime-300"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "About me",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": "",
+                          "link": {
+                            "type": "url",
+                            "path": "/about",
+                            "evaluate": false
+                          }
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "relative",
+                        "h-[420px]",
+                        "overflow-hidden",
+                        "rounded-[2rem]",
+                        "border",
+                        "border-white/10",
+                        "bg-[#191a16]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "absolute",
+                            "-right-20",
+                            "-top-20",
+                            "h-80",
+                            "w-80",
+                            "rounded-full",
+                            "bg-lime-300/70",
+                            "blur-3xl"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "absolute",
+                            "bottom-[-5rem]",
+                            "left-[-3rem]",
+                            "h-72",
+                            "w-72",
+                            "rounded-full",
+                            "bg-fuchsia-600/50",
+                            "blur-3xl"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [],
+                          "comments": ""
+                        },
+                        {
+                          "name": "div",
+                          "nodeName": "div",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "absolute",
+                            "inset-8",
+                            "rounded-full",
+                            "border",
+                            "border-white/20"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [],
+                          "comments": ""
+                        },
+                        {
+                          "name": "p",
+                          "nodeName": "p",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "absolute",
+                            "bottom-8",
+                            "left-8",
+                            "text-xs",
+                            "tracking-[0.25em]",
+                            "text-white/70"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "FORM / FUNCTION / FEELING",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "div",
+                  "nodeName": "div",
+                  "elementId": "",
+                  "attributes": [],
+                  "classList": [
+                    "flex",
+                    "flex-wrap",
+                    "justify-between",
+                    "gap-4",
+                    "border-y",
+                    "border-white/10",
+                    "py-6",
+                    "text-xs",
+                    "uppercase",
+                    "tracking-[0.16em]",
+                    "text-zinc-500"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "span",
+                      "nodeName": "span",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Brand systems",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "span",
+                      "nodeName": "span",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Digital experiences",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "span",
+                      "nodeName": "span",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Creative direction",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "span",
+                      "nodeName": "span",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-lime-300"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Based in New York · Working worldwide",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "about",
+                  "attributes": [],
+                  "classList": [
+                    "grid",
+                    "gap-10",
+                    "border-b",
+                    "border-white/10",
+                    "py-28",
+                    "lg:grid-cols-[0.3fr_0.7fr]"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-8xl",
+                        "text-zinc-700"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "01",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "h2",
+                          "nodeName": "h2",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "text-5xl",
+                            "font-medium",
+                            "tracking-[-0.05em]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "A little context",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "p",
+                          "nodeName": "p",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "mt-8",
+                            "max-w-2xl",
+                            "text-xl",
+                            "leading-relaxed",
+                            "text-zinc-400"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "I work at the intersection of clarity and character. My practice moves between strategy, identity, and digital design to give good ideas a point of view — and the confidence to be seen.",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "expertise",
+                  "attributes": [],
+                  "classList": [
+                    "grid",
+                    "gap-10",
+                    "border-b",
+                    "border-white/10",
+                    "py-28",
+                    "lg:grid-cols-[0.3fr_0.7fr]"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-8xl",
+                        "text-zinc-700"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "02",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "div",
+                      "nodeName": "div",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "h2",
+                          "nodeName": "h2",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "mb-8",
+                            "text-5xl",
+                            "font-medium",
+                            "tracking-[-0.05em]"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "What I do",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        },
+                        {
+                          "name": "p",
+                          "nodeName": "p",
+                          "elementId": "",
+                          "attributes": [],
+                          "classList": [
+                            "text-zinc-500"
+                          ],
+                          "conditionalClasses": [],
+                          "conditionalStyles": [],
+                          "contentType": "text",
+                          "displayExpression": "",
+                          "events": {},
+                          "iterate": {
+                            "array": "",
+                            "variable": "",
+                            "trackByIndex": false
+                          },
+                          "styles": [],
+                          "children": [
+                            {
+                              "name": "text",
+                              "nodeName": "text",
+                              "textContent": "Brand Identity · Digital Product · Art Direction · Design Systems",
+                              "evaluate": false
+                            }
+                          ],
+                          "comments": ""
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "work",
+                  "attributes": [],
+                  "classList": [
+                    "border-b",
+                    "border-white/10",
+                    "py-28"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-8xl",
+                        "text-zinc-700"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "03",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h2",
+                      "nodeName": "h2",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-6",
+                        "text-5xl",
+                        "font-medium",
+                        "tracking-[-0.05em]"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Selected work",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-12",
+                        "text-zinc-500"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Aster House · Common Ground · Mono Editions",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "section",
+                  "nodeName": "section",
+                  "elementId": "contact",
+                  "attributes": [],
+                  "classList": [
+                    "my-28",
+                    "rounded-[2rem]",
+                    "bg-lime-300",
+                    "px-8",
+                    "py-16",
+                    "text-[#11110f]",
+                    "sm:px-14"
+                  ],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "children": [
+                    {
+                      "name": "p",
+                      "nodeName": "p",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "text-xs",
+                        "uppercase",
+                        "tracking-[0.2em]",
+                        "opacity-60"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "04 / Start something good",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "h2",
+                      "nodeName": "h2",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-10",
+                        "max-w-4xl",
+                        "text-5xl",
+                        "font-medium",
+                        "leading-[0.95]",
+                        "tracking-[-0.06em]",
+                        "sm:text-7xl"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "Have a good idea? Let’s make it real.",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "a",
+                      "nodeName": "a",
+                      "elementId": "",
+                      "attributes": [],
+                      "classList": [
+                        "mt-12",
+                        "text-xl",
+                        "underline",
+                        "underline-offset-8",
+                        "hover:opacity-60"
+                      ],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "hello@alexmorgan.design",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": "",
+                      "link": {
+                        "type": "url",
+                        "path": "mailto:hello@alexmorgan.design",
+                        "evaluate": false
+                      }
+                    }
+                  ],
+                  "comments": ""
+                }
+              ],
+              "comments": ""
+            },
+            {
+              "name": "site-footer",
+              "nodeName": "site-footer",
+              "elementId": "",
+              "attributes": [],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [],
+              "children": [],
+              "comments": "",
+              "type": "custom-component",
+              "ownerId": "6abb15a10c6fee37005d8d39",
+              "ownerType": "app",
+              "expressions": []
+            }
+          ],
+          "comments": ""
+        }
+      ],
+      "comments": ""
+    }
+  ],
+  "description": "## Alex Morgan\nAn editorial portfolio for an independent designer and creative strategist."
+}
